@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>  
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-nav-block">
+                    <div class="header-nav-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <nav class="header-nav-links">
+                        <a class="header-nav-item active-nav-item" href="#info-block">Личная информация </a>
+                        <a class="header-nav-item" href="#scills-block">Опыт</a>
+                        <a class="header-nav-item" href="#js-block">JavaScript</a>
+                        <a class="header-nav-item" href="#about-block">О себе</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <h1>Анкета</h1>
+
+                <form action="" method="post">
+                    <section class="info-block">
+                        <a name="info-block"></a>
+                        <div class="info-img"></div>
+                        <div class="info-title title-block">Личная информация</div>
+                        <div class="input-block">
+                            <div class="form-item">
+                                <input type="text" value="Тисленко Юрий Юрьевич" name="fio" class="form-input" required>
+                                <label value class="form-label label-fio">ФИО</label>
+                            </div>
+                            <div class=" select-item">
+
+                                <select id="select1" required class="selectYear SlectBox">
+
+                                    <option selected>Год рождения</option>
+
+                                </select>
+                            </div>
+
+                            <div class="form-item city-item">
+                                <input type="text" value="г. Киев" name="city" class="form-input" required>
+                                <label class="form-label lable-city">Место проживания</label>
+                            </div>
+
+                            <div class="form-item skype-item">
+                                <input type="text" name="skype" value="https://join.skype.com/invite/piy879Qs2vxC" class="form-input" required>
+                                <label class="form-label lable-skype">Skype</label>
+                            </div>
+
+                            <div class="form-item">
+                                <input type="text" name="mail" value="kaknazlo@gmail.com" class="form-input" required>
+                                <label class="form-label lable-mail">E-mail</label>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <section class="scills-block">
+                        <a name="scills-block"></a>
+                        <div class="skills-img"></div>
+                        <div class="skills-title title-block">Расскажите о своем опыте</div>
+                        <div class="skills-checkbox-block">
+                            <div class="check-col-one">
+
+
+                                <input class="input-check" checked="checked" type="checkbox" id="skill1" name="skill1" value="bem">
+                                <label class="lable-check" for="skill1">БЭМ/OOCSS</label><br>
+
+                                <input class="input-check" checked="checked" type="checkbox" id="skill2" name="skill2" value="css">
+                                <label class="lable-check" for="skill2">Stylus/LESS/SASS</label>
+                                <br>
+                                <input class="input-check" type="checkbox" id="skill3" name="skill3" value="svg">
+                                <label class="lable-check" for="skill3">Работаю с SVG</label>
+
+                            </div>
+                            <div class="check-col-two">
+                                <input class="input-check" checked="checked" type="checkbox" id="skill4" name="skill4" value="semantic">
+                                <label class="lable-check" for="skill4">Верстаю семантично</label><br>
+
+                                <input class="input-check" checked="checked" type="checkbox" id="skill5" name="skill5" value="js">
+                                <label class="lable-check" for="skill5">ES2015/ES2016</label><br>
+
+                                <input class="input-check" checked="checked" type="checkbox" id="skill6" name="skill6" value="gulp">
+                                <label class="lable-check" for="skill6">Gulp/GRUNT</label>
+                            </div>
+                            <div class="check-col-three">
+                                <input class="input-check" type="checkbox" id="skill7" name="skill7" value="webpack">
+                                <label class="lable-check" for="skill7">Webpack</label><br>
+
+                                <input class="input-check" checked="checked" type="checkbox" id="skill8" name="skill8" value="jq">
+                                <label class="lable-check" for="skill8">jQuery</label><br>
+
+
+                                <input class="input-check" checked="checked" type="checkbox" id="skill9" name="skill9" value="git">
+                                <label class="lable-check" for="skill9">Ипользую Git</label>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <section class="js-block">
+                        <a name="js-block"></a>
+                        <div class="js-img"></div>
+                        <div class="js-title title-block">Уровень владения JavaScript</div>
+
+                        <div class="js-block-items">
+                            <div class="js-block-item start-item">Не владею</div>
+                            <div class="js-block-item second-item">Использую готовые <br>
+                                решения</div>
+                            <div class="js-block-item middle-item">Использую готовые решения<br>
+                                и умею и переделывать</div>
+                            <div class="js-block-item last-item">Пишу сложный JS с нуля</div>
+                        </div>
+                        <div id="slider" class="my-slider"></div>
+
+                    </section>
+
+                    <section class="about-block">
+                        <a name="about-block"></a>
+                        <div class="about-img"></div>
+                        <div class="about-title title-block">Расскажите о себе</div>
+                        <div class="about-text">Напишите несколько предложений, чем привлекла наша вакансия
+                            и что вы ожидаете от работы у нас.</div>
+                        <textarea name="form-mess" placeholder="Понравилась тем, что...">Возможностью работать удалённо, принимать участие в интересных проектах, развиваться как специалист.</textarea>
+
+                        <input class="forn-btn" type="submit" value="Готово">
+                    </section>
+
+
+                </form>
+
+            </div>
+
+
+        </main>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/jquery.sumoselect.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
