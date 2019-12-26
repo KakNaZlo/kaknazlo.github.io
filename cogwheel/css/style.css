@@ -120,8 +120,8 @@ h1::after {
     background: url(../img/mess.png);
     background-repeat: no-repeat;
     background-position: center;
-    right: -176px;
-    top: -170px;
+        right: -174px;
+    top: -175px;
 }
 
 .mess-item:hover {
@@ -140,8 +140,8 @@ h1::after {
     background-repeat: no-repeat;
     width: 157px;
     height: 30px;
-    left: -112px;
-    bottom: -38px;
+   left: -111px;
+    bottom: -43px;
     transform: rotate(316deg);
     z-index: 1;
 }
@@ -158,10 +158,12 @@ h1::after {
 }
 
 .year-2014 {
-    right: -283px;
+    right: -285px;
     top: 93px;
 }
-
+.year-2014 .line-block{
+    line-height: 4.4;
+}
 .year-2014 .line-block::before {
     position: absolute;
     content: '';
@@ -218,7 +220,9 @@ h1::after {
     bottom: -282px;
     left: 96px;
 }
-
+.year-2016 .line-block{
+    line-height: 4.4;
+}
 .year-2016 .line-block::before {
     position: absolute;
     content: '';

@@ -31,12 +31,12 @@ $(".circle-block").click(function (e) {
     var deg = $(e.target).html()
 
 
-    deg = deg === "1" ? 30 :
+    deg = deg === "1" ? 36 :
         deg === "2014" ? 90 :
-        deg === "2015" ? 130 :
+        deg === "2015" ? 135 :
         deg === "2016" ? 180 :
-        deg === "2017" ? 235 :
-        deg === "2018" ? 260 :
+        deg === "2017" ? 230 :
+        deg === "2018" ? 268 :
         deg === "2019" ? 308 : -30;
     rotateTo(deg);
 });
