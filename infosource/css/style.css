@@ -121,6 +121,7 @@
 	content: '';
 	background-image: url(../img/money.png);
 	    background-repeat: no-repeat;
+	      background-size: contain; 
     width: 80px;
     height: 80px;
     right: -25%;
@@ -142,6 +143,7 @@ right: -300px;
 	content: '';
 	background-image: url(../img/grafik.png);
 	    background-repeat: no-repeat;
+	      background-size: contain; 
     width: 80px;
     height: 80px;
     right: -25%;
@@ -163,6 +165,7 @@ right: -300px;
 	content: '';
 	background-image: url(../img/search.png);
 	    background-repeat: no-repeat;
+	      background-size: contain; 
     width: 80px;
     height: 80px;
     left: -25%;
@@ -184,6 +187,7 @@ right: -300px;
 	position: absolute;
 	content: '';
 	background-image: url(../img/user.png);
+	    background-size: contain;   
 	    background-repeat: no-repeat;
     width: 80px;
     height: 80px;
@@ -280,6 +284,29 @@ right: -300px;
 }
 .orange-block::before, .blue-block::before{    right: -40%;}
 .pink-block::before, .darkblue-block::before{    left: -40%;}
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px){
+	.left-block{
+		padding-top: 300px;
+	}
+.item-text{
+	padding-bottom: 20px;
+	    font-size: 18px;
+}
+.item-title{
+	padding-top: 10px;
+	    font-size: 28px;
+}
+.pink-block::after, .darkblue-block::after{
+	left: -175px;
+    width: 175px;
+}
+.orange-block::after, .blue-block::after{
+	right: -175px;
+    width: 175px;
+}
+	.orange-block::before, .blue-block::before,
+	.pink-block::before, .darkblue-block::before{    width: 60px;}
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
 	.main-block-content{
