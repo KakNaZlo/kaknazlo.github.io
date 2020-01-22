@@ -51,7 +51,6 @@ a{
 .main-wrapper{
 	width: 100%;
 	max-width: 2560px;
-  height: 100%
 }
 .content{
 	display: -webkit-flex;
@@ -471,7 +470,6 @@ margin-top: 19px;
     background-image: none;
     background-color: rgb(16, 23, 47);
     width: 100%; 
-    height: auto;
   }
   .right-block-title, .right-block-desc, .reset-pass-block, .btn-block{padding-left: 0;}
   .form-btn::after{
