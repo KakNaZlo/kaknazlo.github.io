@@ -44,33 +44,6 @@ jQuery(document).ready(function($) {
             }]
     });
 
-
-
-    // const menuBtn = $('.nav-mobile'),
-    //     menu    = $('.nav_content');
-    //
-    // menuBtn.on('click', function() {
-    //     if ( $(this).hasClass('is-active') ) {
-    //         $(this).removeClass('is-active');
-    //         menu.slideUp();
-    //     } else {
-    //         $(this).addClass('is-active');
-    //         menu.slideDown();
-    //     }
-    // });
-    //
-    // $(document).click(function (e) {
-    //     if ( !menuBtn.is(e.target) && !menu.is(e.target) && menu.has(e.target).length === 0) {
-    //         menu.slideUp();
-    //         menuBtn.removeClass('is-active');
-    //     };
-    // });
-    // $(document).keydown(function(eventObject){
-    //     if ( eventObject.which == 27 ) {
-    //         menu.slideUp();
-    //         menuBtn.removeClass('is-active');
-    //     };
-    // });
 });
 
 function selectCountry() {
@@ -118,20 +91,20 @@ $(function() {
 
             var textBlockClass = $(this).data('ref');
 
-            if (!$(this).hasClass('active')) { // showing
+            if (!$(this).hasClass('active_tool')) { // showing
 
-                $('.tooltip.active').removeClass('active');
-                $(this).addClass('active');
+                $('.tooltip.active_tool').removeClass('active_tool');
+                $(this).addClass('active_tool');
 
 
                 // hiding currently visible text and showing needed text
-                $('.tooltip_info.active').not('.'+textBlockClass).removeClass('active');
-                $('.tooltip_info.'+textBlockClass).addClass('active');
+                $('.tooltip_info.active_tool').not('.'+textBlockClass).removeClass('active_tool');
+                $('.tooltip_info.'+textBlockClass).addClass('active_tool');
 
             } else { // returning to base state
 
-                $(this).removeClass('active');
-                $('.tooltip_info.active').removeClass('active');
+                $(this).removeClass('active_tool');
+                $('.tooltip_info.active_tool').removeClass('active_tool');
 
 
             }
