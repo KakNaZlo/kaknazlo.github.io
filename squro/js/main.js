@@ -137,12 +137,38 @@ $(function() {
             this.classList.toggle('active');
         });
         $(document).keydown(function(eventObject){
-            if ( eventObject.which == 27 ) {
+            if ( eventObject.which == 27 && window.matchMedia('(max-width: 1024px)').matches) {
                 $('.mobile_menu').slideToggle();
                 $('#nav-toggle').removeClass('active');
-
             };
         });
 
     });
 })(jQuery);
+
+
+function mainRenge() {
+    var outputf = document.querySelector(".range_sum_val");
+    var slider = document.querySelector(".range1");
+    var output = document.querySelector(".range_val1");
+    output.innerHTML = slider.value;
+
+    slider.oninput = function() {
+        output.innerHTML = this.value;
+        outputf.innerHTML = +slider.value + +slider1.value;
+    }
+
+
+
+
+    var slider1 = document.querySelector(".range2");
+    var output1 = document.querySelector(".range_val2");
+    output1.innerHTML = slider1.value;
+
+    slider1.oninput = function() {
+        output1.innerHTML = this.value;
+        outputf.innerHTML = +slider.value + +slider1.value;
+    }
+
+}
+mainRenge();
