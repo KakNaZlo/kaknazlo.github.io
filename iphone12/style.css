@@ -86,12 +86,20 @@
 .s1 .img_block,
 .s3 .img_block,
 .s5 .img_block,
+.s4 .img_block,
 .s33 .title,
 .s3 .title,
 .s5 .title,
 .s4 .title,
 .s7 .s_box_size{
     text-align: center
+}
+
+.s4 .text_block{
+margin: 25px 0 50px;
+}
+.s4 img{
+    max-width: 1000px
 }
 
 .phone{
