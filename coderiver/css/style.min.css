@@ -777,10 +777,11 @@ ul, li {
   .visible {
     left: 0;
     text-align: center;
-    background: #4053dcd1;
+   background: #4053dc;
     padding: 20px 0;
     transition: all 0.5s ease;
     max-width: 100%;
+    z-index: 11;
   }
   .scroll-bar {
     display: none;
