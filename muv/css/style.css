@@ -633,18 +633,20 @@ ul {
     margin-top: -20px;
 }
 
-.footer_contacts__item a,
-.footer_contacts__geo div {
+.footer_contacts__item  {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 130%;
     color: #FFFFFF;
-    opacity: 0.65;
-    padding-left: 18px
+    opacity: 0.65; 
 }
 
+
+.footer_contacts__item svg{
+    margin-right: 17px;
+}
 
 @media screen and (max-width: 1199px) {
     .navbar-collapse {
@@ -688,6 +690,15 @@ ul {
 
     .banner_block__img {
         margin-top: 35px;
+    }
+    
+    .footer_copyrigt,
+    .footer .col-md-3{
+margin-top: 25px;
+    }
+    .footer_contacts__geo svg {
+    width: 16px;
+        margin-top: 0;
     }
 }
 
