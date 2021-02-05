@@ -134,6 +134,9 @@ ul {
     padding: 0;
 }
 
+.dropdown_menu .dropdown_item {
+    line-height: 25px
+}
 
 
 .dropdown_item:hover {
@@ -284,36 +287,36 @@ ul {
 
 
 .header_soc .fa {
-    background-position: 10px 6px;
+    background-position: 10px 4px;
 }
 
 .header_soc .inst {
-    background-position: -25px 6px;
+    background-position: -25px 4px;
 }
 
 .header_soc .li {
-    background-position: -60px 6px;
+    background-position: -60px 4px;
 }
 
 .header_soc .you {
-    background-position: -95px 6px;
+    background-position: -95px 4px;
 }
 
 
 .header_soc .fa:hover {
-    background-position: 10px -17px;
+    background-position: 8px -20px;
 }
 
 .header_soc .inst:hover {
-    background-position: -25px -17px;
+    background-position: -25px -20px;
 }
 
 .header_soc .li:hover {
-    background-position: -60px -17px;
+    background-position: -59px -20px;
 }
 
 .header_soc .you:hover {
-    background-position: -95px -17px;
+    background-position: -95px -20px;
 }
 
 
