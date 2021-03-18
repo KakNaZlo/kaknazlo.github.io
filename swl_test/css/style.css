@@ -8,9 +8,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  background: #F2F2F2; }
-.main_wrap {
-  background: #F2F2F2; }
+  background: rgba(236,241,248,.4); }
+ 
 .container {
   width: 100%;
   max-width: 1170px;
@@ -95,23 +94,7 @@ a:hover {
   .header .notification__link {
     display: inline-block;
     margin-right: -4px; }
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px; }
-.main_wrap {
-  background: #F2F2F2; }
-.container {
-  width: 100%;
-  max-width: 1170px;
-  margin: 0 auto; }
-a,
-a:hover {
-  text-decoration: none; }
+
 .profile_container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -333,7 +316,8 @@ a:hover {
   width: 100%;
   max-width: 374px;
   margin: 12px 0 10px;
-  padding: 56px 24px 24px; }
+  padding: 56px 24px 24px;
+    box-shadow: 0px 24px 24px rgb(0 0 0 / 12%);}
   .card__info, .card__stats {
     display: -webkit-box;
     display: -webkit-flex;
