@@ -5,10 +5,12 @@
       "name1" : "yellow1",
       "umg_url" : "https://cdn.shopify.com/s/files/1/0015/7240/5336/t/24/assets/cs_panel_yellow_matt.png",
       "diff_color": [
+        {
            "color1": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
            "color2": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
            "color3": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
-           "color4": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg"           
+           "color4": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg"
+        }
         ]
     },
     {
@@ -16,10 +18,12 @@
       "name1" : "orange1",
       "umg_url" : "https://cdn.shopify.com/s/files/1/0015/7240/5336/t/24/assets/cs_panel_orange_matt.png",
       "diff_color": [
+        {
           "color1": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
           "color2": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
           "color3": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
           "color4": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg"
+        }
         ]
     },
     {
@@ -27,10 +31,12 @@
       "name1" : "pink1",
       "umg_url" : "https://cdn.shopify.com/s/files/1/0015/7240/5336/t/24/assets/cs_panel_lilac.png",
       "diff_color": [
+        {
           "color1": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
           "color2": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
           "color3": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
           "color4": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg"
+        }
         ]
     },
     {
@@ -38,10 +44,12 @@
       "name1" : "blue1",
       "umg_url" : "https://cdn.shopify.com/s/files/1/0015/7240/5336/t/24/assets/cs_panel_skyblue_matt.png",
       "diff_color": [
+        {
           "color1": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
           "color2": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
           "color3": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg",
           "color4": "https://cdn.shopify.com/s/files/1/0072/8111/5254/t/47/assets/about-free-td-delivery.svg"
+        }
         ]
     }
   ]
